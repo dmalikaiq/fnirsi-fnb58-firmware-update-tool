@@ -37,3 +37,9 @@ all done!
 
 *WARNING* - this is tested only a couple times - expect issues!
 
+## FNB58 Firmwares
+
+Can be downloaded from:
+1. https://www.fnirsi.com/pages/manuals-firmwares?category=signal-analysis
+2. or https://github.com/Rhomboid/fnb58-archive
+
