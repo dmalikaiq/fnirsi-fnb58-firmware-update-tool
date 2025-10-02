@@ -2,13 +2,14 @@ Quick & dirty tool to update FNB58's firmware on Linux. Original tool works unde
 
 ## How to build
 
-Building on Linux or MacOS should be the same using the `make` command. The makefile automatically detects the OS and runs the right build command. If OS detection fails you can build manually with `make linux` or `make macos`.
+Building on Linux or MacOS are the same by running the `make` command.
+The makefile automatically detects the OS and runs the right build command and installs `hidapi` from brew if missing.
 
 Note: Only tested it on MacOS 15. Other versions are not guaranteed.
 
 ### MacOS hidapi dependency
 
-As the `hidapi` library is a dependency it needs to be installed using `make brew-install-hidapi` or `brew install hidapi`.
+As the `hidapi` library is a dependency it needs to be installed. The make script should automatically install it from `brew` on MacOS. On Linux you have to install it manually.
 
 ## How to use?
 
